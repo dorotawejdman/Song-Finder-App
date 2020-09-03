@@ -1,6 +1,9 @@
 body{
     background: rgb(80, 150, 150);
+    background: radial-gradient(rgb(80, 150, 150),rgb(58, 108, 131));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
 }
 
 header{
@@ -9,6 +12,11 @@ header{
 
 h1{
     text-align: center;
+    font-size: 40px;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    
+    
 }
 header label{
     display: inline-block;
@@ -18,14 +26,17 @@ header label{
 }
 .searching {
     width: 30%;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     padding:10px 0;
 }
 input{
-    width:85%
-
+    width:83%;
+    box-sizing: border-box;
+}
+button{
+    width:15%;
+    box-sizing: border-box;
 }
 hr{
     margin-top: 30px;
@@ -40,7 +51,8 @@ main{
 }
 
 article{
-    border: 1px solid;
+    /* border: 1px solid; */
+    border-radius: 10%;
     border-color: floralwhite;
     padding:20px;
     margin:30px;
@@ -55,5 +67,6 @@ img{
     display:block;
     margin-left: auto;
     margin-right: auto;
+    width:150px;
     
 }
